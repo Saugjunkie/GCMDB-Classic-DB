@@ -79,4 +79,24 @@ UPDATE `dbscript_string` SET `content_default`='Da wären wir, $n. Das Toxin ste
 UPDATE `dbscript_string` SET `content_default`='%s füllt einen Behälter mit dem Toxin.' WHERE (`entry`='2000000098'); /* %s fills a container with the toxin. */
 UPDATE `dbscript_string` SET `content_default`='Das Toxin ist fertig, $n.' WHERE (`entry`='2000000099'); /* %s The toxin is ready, $N. */
 UPDATE `dbscript_string` SET `content_default`='%s stellt die Kiste mit den Teilen auf den Boden.' WHERE (`entry`='2000000100'); /* %s places the crate of parts on the ground. */
+UPDATE `dbscript_string` SET `content_default`='%s greift sich ein Teil und steckt es in die Tasche...' WHERE (`entry`='2000000101'); /* %s grabs a part and puts it in his pocket... */
+UPDATE `dbscript_string` SET `content_default`='So, das sollte reichen...' WHERE (`entry`='2000000102'); /* There, that should do it... */
+UPDATE `dbscript_string` SET `content_default`='%s saugt etwas Traumstaub in die Nase...' WHERE (`entry`='2000000103'); /* %s snorts a speck of dream dust up his nose... */
+UPDATE `dbscript_string` SET `content_default`='%s ist benommen...' WHERE (`entry`='2000000104'); /* %s is dazed... */
+UPDATE `dbscript_string` SET `content_default`='HATSCHI!' WHERE (`entry`='2000000105'); /* ACHOO! */
+UPDATE `dbscript_string` SET `content_default`='Unglaublich! $n, dieser Traumstaub ist aber ein Teufelszeug!' WHERE (`entry`='2000000106'); /* Wow! $N, that dream dust is powerful stuff! */
+UPDATE `dbscript_string` SET `content_default`='He, $n! Vergesst nicht, eine Kiste, ein Handbuch und einen Leitstecken mitzunehmen!' WHERE (`entry`='2000000107'); /* Hey $N! Don\'t forget to grab a crate, a manual and a command stick! */
+UPDATE `dbscript_string` SET `content_default`='%s beginnt zu tanzen.' WHERE (`entry`='2000000108'); /* %s begins to dance. */
+UPDATE `dbscript_string` SET `content_default`='Haha! $n, Ihr seid mir schon ein Partner!' WHERE (`entry`='2000000109'); /* Hahah! $N, you make quite a partner! */
+UPDATE `dbscript_string` SET `content_default`='%s beginnt, über den Herzen und Zungen einen Zauber zu sprechen.' WHERE (`entry`='2000000110'); /* %s begins to cast a spell over the hearts and tongues. */
+UPDATE `dbscript_string` SET `content_default`='Die Brut von Onyxia!' WHERE (`entry`='2000000111'); /* The brood of Onyxia! */
+UPDATE `dbscript_string` SET `content_default`='Okay, Leute. Macht euch an die Arbeit und bringt diese Knochen an.' WHERE (`entry`='2000000112'); /* Okay, crew. Get to work on getting these bones installed. */
+UPDATE `dbscript_string` SET `content_default`='Ich brauche nur wenige Minuten, um das Serum zuzubereiten, $n.' WHERE (`entry`='2000000113'); /* The serum will only take a few minutes to prepare, $N. */
+UPDATE `dbscript_string` SET `content_default`='Fast fertig...' WHERE (`entry`='2000000114'); /* Almost done... */
+UPDATE `dbscript_string` SET `content_default`='Endlich ist das Serum vollendet, $n. Kommt jetzt näher. Wir müssen reden.' WHERE (`entry`='2000000115'); /* At last, the serum is complete, $N. Now, come closer. We must talk. */
+UPDATE `dbscript_string` SET `content_default`='%s trinkt einen großen Schluck Bier.' WHERE (`entry`='2000000116'); /* %s takes big swig of ale. */
+UPDATE `dbscript_string` SET `content_default`='Das war erfrischend. Jetzt zu den Informationen, die ich loswerden muss...' WHERE (`entry`='2000000117'); /* That was refreshing. Now there\'s information that needs to be told... */
+UPDATE `dbscript_string` SET `content_default`='Ich denke, dass die Verlassenen die Verbündeten der Horde in die Irre führen... wartet... Ich fühle mich so... benommen...' WHERE (`entry`='2000000118'); /* I believe the Forsaken are misleading the allies of the Horde... wait... I feel so... dizzy... */
+UPDATE `dbscript_string` SET `content_default`='%s windet sich vor Schmerzen.' WHERE (`entry`='2000000119'); /* %s writhes in pain. */
+UPDATE `dbscript_string` SET `content_default`='AAAAAAAARGH!' WHERE (`entry`='2000000120'); /* AAAAAAAAAAAAAAAARGH */
 UPDATE `dbscript_string` SET `content_default`='Hmmm... ich glaube ich brauche einen besseren Köder. Ich werde mal im Wagen meines Vaters nachsehen.' WHERE (`entry`='2000000201'); /* Hmmm... I think I need better bait. I\'ll check my father\'s wagon. */
