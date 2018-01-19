@@ -1,7 +1,7 @@
 GCMDB for cmangos Classic-db
 
 
-Wir bieten euch mit jedem Milestone zwei Möglichkeiten eure Datenbank zu patchen!
+Wir bieten euch zwei Möglichkeiten eure Datenbank zu patchen!
 
 1. Ersetzen der englischen DB-Einträge: (/german_only/GMDB_Classic-DB_template.sql)
 ---------------------------------------
