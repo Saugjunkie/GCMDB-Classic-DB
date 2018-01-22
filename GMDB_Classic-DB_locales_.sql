@@ -357,7 +357,6 @@ UPDATE `dbscript_string` SET `content_loc3`='Er fürchtete, seine Macht würde s
 UPDATE `dbscript_string` SET `content_loc3`='Dann müssen wir Athrikus Narassin beseitigen. Sagt mir, Geist, wo kann ich die anderen Seelensteine finden, um seine Magie rückgängig zu machen?' WHERE (`entry`='2000005247'); /* Then we must put an end to Athrikus Narassin. Tell me, spirit, where might we find the other soulgems, to undo his magic? */
 UPDATE `dbscript_string` SET `content_loc3`='Sein Leutnant, Ilkrud Magskluve, besitzt einen Folianten, der Hinweise auf den Verbleib der letzten Seelensteine geben könnte.' WHERE (`entry`='2000005248'); /* His lieutenant, Ilkrud Magthrull possesses a tome which might indicate the location of the remaining soulgems. */
 UPDATE `dbscript_string` SET `content_loc3`='%s verschwindet im Nebel...' WHERE (`entry`='2000005249'); /* %s fades into the mist... */
-
 UPDATE `dbscript_string` SET `content_loc3`='Der Steinwerkdamm wurde gerettet! Ein dreifaches Hoch auf $n!' WHERE (`entry`='2000005300'); /* The Stonewrought Dam has been saved! Three cheers for $N! */
 UPDATE `dbscript_string` SET `content_loc3`='Der Boss will, dass alle äußerst wachsam bleiben. Heute Nacht sinkt der rostige Anker.' WHERE (`entry`='2000005301'); /* The boss wants all hands on high alert. The rusty anchor sinks tonight. */
 UPDATE `dbscript_string` SET `content_loc3`='Steinmetze... grr... Seid gewarnt, Defias: Heute Nacht sinkt der rostige Anker.' WHERE (`entry`='2000005302'); /* Stonemasons. . .errr. . Defias be warned:  The rusty anchor sinks tonight. */
