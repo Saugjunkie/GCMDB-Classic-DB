@@ -1,6 +1,6 @@
 SET NAMES 'utf8';
-UPDATE creature_template_german SET Name='Wegpunkt',SubName='(Nur für GMs sichtbar)'  WHERE Entry=1;
-UPDATE creature_template_german SET Name='Spawnpunkt',SubName='(Nur für GMs sichtbar)'  WHERE Entry=2;
+UPDATE creature_template SET Name='Wegpunkt',SubName='(Nur für GMs sichtbar)'  WHERE Entry=1;
+UPDATE creature_template SET Name='Spawnpunkt',SubName='(Nur für GMs sichtbar)'  WHERE Entry=2;
 UPDATE creature_template SET Name='Fleischfresser'  WHERE Entry=3;
 UPDATE creature_template SET Name='Koboldgezücht'  WHERE Entry=6;
 UPDATE creature_template SET Name='Waldspinne'  WHERE Entry=30;
