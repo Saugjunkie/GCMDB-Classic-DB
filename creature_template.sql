@@ -1,6 +1,6 @@
 SET NAMES 'utf8';
-UPDATE creature_template SET Name='Wegpunkt (Nur für GMs sichtbar)'  WHERE Entry=1;
-UPDATE creature_template SET Name='Spawnpunkt (Nur für GMs sichtbar)'  WHERE Entry=2;
+UPDATE creature_template_german SET Name='Wegpunkt',SubName='(Nur für GMs sichtbar)'  WHERE Entry=1;
+UPDATE creature_template_german SET Name='Spawnpunkt',SubName='(Nur für GMs sichtbar)'  WHERE Entry=2;
 UPDATE creature_template SET Name='Fleischfresser'  WHERE Entry=3;
 UPDATE creature_template SET Name='Koboldgezücht'  WHERE Entry=6;
 UPDATE creature_template SET Name='Waldspinne'  WHERE Entry=30;
@@ -5113,8 +5113,8 @@ UPDATE creature_template SET Name='Nargatt',SubName='Essen & Getränke'  WHERE E
 UPDATE creature_template SET Name='Totem der luftgleichen Anmut'  WHERE Entry=7486;
 UPDATE creature_template SET Name='Totem der luftgleichen Anmut II'  WHERE Entry=7487;
 UPDATE creature_template SET Name='Todeswache des Silberwalds'  WHERE Entry=7489;
-UPDATE creature_template SET Name='Fluch des Auges' WHERE Entry=7503;
-UPDATE creature_template SET Name='Fluch des Auges' WHERE Entry=7504;
+UPDATE creature_template SET Name='Fluch des Auges',SubName='Männlich'  WHERE Entry=7503;
+UPDATE creature_template SET Name='Fluch des Auges',SubName='weiblich'  WHERE Entry=7504;
 UPDATE creature_template SET Name='Blutmagier Drazial'  WHERE Entry=7505;
 UPDATE creature_template SET Name='Blutmagierin Lynnore'  WHERE Entry=7506;
 UPDATE creature_template SET Name='Leidender Hochgeborener'  WHERE Entry=7523;
@@ -8942,7 +8942,7 @@ UPDATE creature_template SET Name='Skelettstoßtruppsoldat'  WHERE Entry=16299;
 UPDATE creature_template SET Name='Diener der Geißelinvasion, Spawner, Geister/Ghuls'  WHERE Entry=16306;
 UPDATE creature_template SET Name='Diener der Geißelinvasion, Spawner, Geister/Skelette'  WHERE Entry=16336;
 UPDATE creature_template SET Name='Diener der Geißelinvasion, Spawner, Ghuls/Skelette'  WHERE Entry=16338;
-UPDATE creature_template SET Name='Diener der Geißelinvasion, Finder'  WHERE Entry=16356;
+UPDATE creature_template SET Name='Diener der Geißelinvasion',SubName='Finder'  WHERE Entry=16356;
 UPDATE creature_template SET Name='Argentumbote',SubName='Die Argentumdämmerung'  WHERE Entry=16359;
 UPDATE creature_template SET Name='Zombiefraß'  WHERE Entry=16360;
 UPDATE creature_template SET Name='Kommandant Thomas Helleran',SubName='Die Argentumdämmerung'  WHERE Entry=16361;
