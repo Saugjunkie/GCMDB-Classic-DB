@@ -10,7 +10,7 @@ Wir bieten euch zwei Möglichkeiten eure Datenbank zu patchen!
 	Auch Spieler, die z. B. mit einem englischen Client connecten, finden nur die deutsche Sprache vor.
 	
 
-2. Nutzung der "locales_*" Tabellen: (GMDB_Classic-DB_locales_.sql)
+2. Nutzung der "locales_*" Tabellen: (GCMDB_Classic-DB_locales_.sql)
 ------------------------------------------
 	Hierbei werden die "locales_*" Tabellen gefüllt!
 	Nach dem Patchvorgang ist es Clientabhängig welche Sprache euch angezeigt wird!
