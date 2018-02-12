@@ -9379,6 +9379,8 @@ UPDATE locales_creature SET name_loc3='Botin des Mondfests'  WHERE entry=15895;
 UPDATE locales_creature SET name_loc3='Portal von C''Thun'  WHERE entry=15896;
 UPDATE locales_creature SET name_loc3='Großes Spotlight'  WHERE entry=15897;
 UPDATE locales_creature SET name_loc3='Verkäufer des Mondfests'  WHERE entry=15898;
+UPDATE locales_creature SET name_loc3='Verkäufer des Mondfests NE'  WHERE entry=15899;
+UPDATE locales_creature SET name_loc3='Botin des Mondfests NE'  WHERE entry=15900;
 UPDATE locales_creature SET name_loc3='Bezwungene Tentakel'  WHERE entry=15901;
 UPDATE locales_creature SET name_loc3='Riesiges Spotlight'  WHERE entry=15902;
 UPDATE locales_creature SET name_loc3='Unteroffizier Schwarz'  WHERE entry=15903;
