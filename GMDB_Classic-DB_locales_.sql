@@ -34591,8 +34591,8 @@ UPDATE locales_item SET name_loc3='Altmodisches Gewehr', description_loc3='Der n
 
 
 #####	locales_gossip_menu_option	#####
-DELETE FROM locales_gossip_menu_option WHERE option_text_loc1 is NULL
-INSERT INTO `locales_gossip_menu_option` (`menu_id`, `id`, `option_text_loc3`) VALUES
+DELETE FROM locales_gossip_menu_option WHERE option_text_loc1 is NULL;
+INSERT INTO locales_gossip_menu_option (menu_id, id, option_text_loc3) VALUES
 (0, 0, 'GOSSIP_OPTION_QUESTGIVER'),
 (0, 1, 'Ich möchte ein wenig in Euren Waren stöbern.'),
 (0, 2, 'Ich brauche einen Flug.'),
@@ -35866,7 +35866,7 @@ INSERT INTO `locales_gossip_menu_option` (`menu_id`, `id`, `option_text_loc3`) V
 (6209, 2, 'Ich würde heimlich Gerüchte streuen, die gegen die Aufnahme meines Bruders in den Orden sprechen. So verhindere ich seine Mitgliedschaft und rette unsere Familienbande.'),
 (6210, 0, 'Ich würde meinem Lehensherrn das Ohr des Monsters bringen, um dessen Tod für mich zu beanspruchen und die Belohnung an mich nehmen. Es ist falsch eine Tat für sich zu beanspruchen, die in Wirklichkeit ein Anderer vollbracht hat.'),
 (6210, 1, 'Ich würde meinem Lehensherrn das Ohr des Monsters bringen, um dessen Tod für mich zu beanspruchen - immerhin wurde es durch meine Hand getötet. Anschließend würde ich dem Ritter einen Teil der Belohnung abgeben, damit er der mittellosen Familie helfen kann.');
-INSERT INTO `locales_gossip_menu_option` (`menu_id`, `id`, `option_text_loc3`) VALUES
+INSERT INTO locales_gossip_menu_option (menu_id, id, option_text_loc3) VALUES
 (6210, 2, 'Ich erzähle niemanden von meiner heldenhaften Tat und erlaube dem Ritter die Belohnung für sich zu beanspruchen, damit er der mittellosen Familie helfen kann.'),
 (6211, 0, 'Ich habe ausreichend Platz in meinem Gepäck und würde gerne eines dieser Horoskope haben, von denen Ihr mir erzählt habt!'),
 (6213, 0, 'Der Dunkelmond-Jahrmarkt ist angekommen, sagst du? Und wo ist es jetzt??'),
@@ -36776,7 +36776,7 @@ INSERT INTO `locales_gossip_menu_option` (`menu_id`, `id`, `option_text_loc3`) V
 
 #####	locales_npc_text	#####
 
-INSERT IGNORE INTO `locales_npc_text` (`entry`) SELECT `ID` FROM `npc_text`;
+INSERT IGNORE INTO locales_npc_text (entry) SELECT ID FROM npc_text;
 
 
 
