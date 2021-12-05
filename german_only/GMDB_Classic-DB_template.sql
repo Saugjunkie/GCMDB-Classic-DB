@@ -188,9 +188,9 @@ UPDATE `dbscript_string` SET `content_default`='%s beginnt, die Träne der Monde
 UPDATE `dbscript_string` SET `content_default`='Macht! Glorreiche Macht!' WHERE (`entry`='2000000347'); /* Power! Glorious power! */
 UPDATE `dbscript_string` SET `content_default`='%s beginnt, seltsame Grunzgeräusche von sich zu geben. Die Träne der Monde fällt zu Boden und zerspringt.' WHERE (`entry`='2000000348'); /* %s begins to make strange grunting noises. The Tear of the Moons drops to the ground and shatters. */
 UPDATE `dbscript_string` SET `content_default`='Spendet den Wohltätigkeitsorganisationen, die den Opfern dieser schweren Zeit zu helfen versuchen! Bitte.' WHERE (`entry`='2000000349'); /* Give to the charities who seek to help the victims of these hard times! Please. */
-UPDATE `dbscript_string` SET `content_default`='Vergesst nicht die Waisen aus Sturmwind!' WHERE (`entry`='2000000350') /* Don\'t forget the orphans of Stormwind! */
-UPDATE `dbscript_string` SET `content_default`='Gebt von Herzen und aus vollen Taschen! Gebt für die Kinder aus Sturmwind, die ihre Eltern verloren haben.' WHERE (`entry`='2000000351') /* Give of your hearts and your purses! Give to the children of Stormwind who have lost their parents. */
-UPDATE `dbscript_string` SET `content_default`='Helft den Kindern aus Sturmwind... den Opfern des Krieges und der Seuche!' WHERE (`entry`='2000000352') /* Help the children of Stormwind... victims of the war and plague! */
+UPDATE `dbscript_string` SET `content_default`='Vergesst nicht die Waisen aus Sturmwind!' WHERE (`entry`='2000000350'); /* Don\'t forget the orphans of Stormwind! */
+UPDATE `dbscript_string` SET `content_default`='Gebt von Herzen und aus vollen Taschen! Gebt für die Kinder aus Sturmwind, die ihre Eltern verloren haben.' WHERE (`entry`='2000000351'); /* Give of your hearts and your purses! Give to the children of Stormwind who have lost their parents. */
+UPDATE `dbscript_string` SET `content_default`='Helft den Kindern aus Sturmwind... den Opfern des Krieges und der Seuche!' WHERE (`entry`='2000000352'); /* Help the children of Stormwind... victims of the war and plague! */
 
 UPDATE `dbscript_string` SET `content_default`='Kommt, $n. Der See befindet sich direkt hinter der nächsten Biegung.' WHERE (`entry`='2000000375'); /* Come,  $N. The lake is around the bend. */
 UPDATE `dbscript_string` SET `content_default`='Bleibt in meiner Nähe, $n. Ich werde Euch beschützen, falls etwas schief geht.' WHERE (`entry`='2000000376'); /* Stand near me,  $N. I will protect you should anything go wrong. */
